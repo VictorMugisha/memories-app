@@ -1,0 +1,70 @@
+/* Paper (container) */
+.paper {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+  }
+  
+  /* Form Layout */
+  .root {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Fields */
+  .input-field, .textarea-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .textarea-field {
+    resize: vertical;
+  }
+  
+  /* File Input */
+  .file-input {
+    margin: 10px 0;
+  }
+  
+  /* Buttons */
+  .button-submit, .button-clear {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-submit {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  .button-submit:hover {
+    background-color: #303f9f;
+  }
+  
+  .button-clear {
+    background-color: #f50057;
+    color: white;
+    margin-top: 5px;
+  }
+  
+  .button-clear:hover {
+    background-color: #c51162;
+  }
+  
