@@ -12,11 +12,3 @@ export default makeStyles((theme) => ({
         textAlign: 'center',
     },
 }));
-
-
-function a(arr) {
-    if (arr.length === 0) return 0
-    const firstElement = arr[0]
-    const newArray = arr.slice(1)
-    return firstElement + a (newArray)
-}
